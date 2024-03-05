@@ -2,7 +2,7 @@
 
 document.addEventListener('DOMContentLoaded', function () {
     const chatWindow = document.getElementById('chat-window');
-    chatWindow.style.overflow = "scroll";
+    chatWindow.style.overflowY = "scroll";
 
     // Load JSON data
     fetch('data.json')
@@ -77,9 +77,9 @@ function createMessage(message, type) {
         options.forEach(option => {
             const button = document.createElement('button');
             button.textContent = option;
-            Object.assign(button.style, {
-                width: "200px"
-            })
+            // Object.assign(button.style, {
+            //     width: "200px"
+            // })
             button.addEventListener('click', () => {
                 handleOptionSelection(option);
                 // Disable other options
