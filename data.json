@@ -1,0 +1,236 @@
+[
+    {
+        "tag": "How can I help you?",
+        "initialMessage": true,
+        "responses": [
+            "Hello! How can I help you?"
+        ],
+        "options": [
+            "Careers",
+            "About us",
+            "Contact Us"
+        ]
+    },
+    {
+        "tag": "Careers",
+        "responses": [
+            "For further more queries visit this https://bourntec.com"
+        ],
+        "options": [
+            "Our Partners",
+            "Our Services",
+            "Others"
+        ]
+    },
+    {
+        "tag": "Our Location",
+        "responses": [
+            "We are in three major countries 'India', 'North America', 'Dubai'"
+        ],
+        "options": [
+            "India ",
+            "North America",
+            "Middle East"
+        ]
+    },
+    {
+        "tag": "India",
+        "responses": [
+            "In India we are in three States."
+        ],
+        "options": [
+            "Odisha",
+            "Hyderabad",
+            "Kerala"
+        ]
+    },
+    {
+        "tag": "Hyderabad",
+        "responses": [
+            "Hitech City, Madhapur, Hyderabad, India. -> https://maps.app.goo.gl/42KTDfAzW9WQbknh8"
+        ],
+        "options": [
+            "Others"
+        ]
+    },
+    {
+        "tag": "Kerala",
+        "responses": [
+            "Kakkanad, Kochi, Kerala, India. -> https://maps.app.goo.gl/LmDxVkfZ8viGojcs6 \n5.Bourntec Solutions Pvt Ltd,Noel Focus, Kochi, Kerala, India. -> https://maps.app.goo.gl/84S3vvCAEvFBZRCZA"
+        ],
+        "options": [
+            "Others"
+        ]
+    },
+    {
+        "tag": "Odisha",
+        "responses": [
+            "1. Sundarpada, Bhubaneswar, Odisha, India. -> https://maps.app.goo.gl/yNC2AsDwzSfrgmfD8 \n 2. OCAC Building, Acharya Vihar, Bhubaneswar, Odisha, India -> https://maps.app.goo.gl/9S2SHxF7faHupn928"
+        ],
+        "options": [
+            "Others"
+        ]
+    },
+    {
+        "tag": "North America",
+        "responses": [
+            "Bourntec's North America office is situated at 1701 East Woodfield Road, Suite 200, Schaumburg, https://maps.app.goo.gl/42KTDfAzW9WQbknh8"
+        ],
+        "options": [
+            "Others"
+        ]
+    },
+    {
+        "tag": "Middle East",
+        "responses": [
+            "Bourntec's Middle East office is situated at Concord Tower, 6th Floor, Dubai, UAE. https://maps.app.goo.gl/LH4z7rThQWKnWjDK8"
+        ],
+        "options": [
+            "Others"
+        ]
+    },
+    {
+        "tag": "Our Cloud Services",
+        "responses": [
+            "Bourntec helps businesses move to the cloud (private or public) for digital transformation. They handle everything from planning and building to running applications, addressing cost and security concerns."
+        ],
+        "options": [
+            "AWS Service",
+            "Oracle Service",
+            "Others"
+        ]
+    },
+    {
+        "tag": "Contact us",
+        "responses": [
+            "Headquarters located at 1701 East Woodfield Road, Suite 200, Schaumburg, IL, with contact details: +1-224-232-5090 (phone), 847-805-6392 (fax).(Provide Specific location for more details)."
+        ],
+        "options": [
+            "Our Partners",
+            "Our Services",
+            "Others"
+        ]
+    },
+    {
+        "tag": "Our Partners",
+        "responses": [
+            "Bourntec leverages strong partnerships (AWS, Microsoft Azure, Google Cloud, Oracle, etc.) to deliver exceptional value in digital transformation."
+        ],
+        "options": [
+            "AWS",
+            "Oracle",
+            "Microsoft Azure",
+            "Others"
+        ]
+    },
+    {
+        "tag": "AWS",
+        "responses": [
+            "Visit our Partner website https://aws.amazon.com/?nc2=h_lg"
+        ],
+        "options": [
+            "Others"
+        ]
+    },
+    {
+        "tag": "Oracle",
+        "responses": [
+            "Visit our Partner website https://www.oracle.com/cloud/"
+        ],
+        "options": [
+            "Others"
+        ]
+    },
+    {
+        "tag": "Microsoft Azure",
+        "responses": [
+            "Visit our Partner website https://azure.microsoft.com/en-in/"
+        ],
+        "options": [
+            "Others"
+        ]
+    },
+    {
+        "tag": "Others",
+        "responses": [
+            "For further more queries visit this https://bourntec.com"
+        ],
+        "options": [
+            "Careers",
+            "Our Services",
+            "Others"
+        ]
+    },
+    
+    {
+        "tag": "Our Services",
+        "responses": [
+            "Bourntec delivers IT solutions in Oracle, Microsoft, Cloud, Analytics, AI, Data Science & Govt IT. Visit our website for more details."
+        ],
+        "options": [
+            "Our Cloud Services",
+            "AI/Analytics Services",
+            "Others"
+            
+        ]
+    },
+    {
+        "tag": "AI/Analytics Services",
+        "responses": [
+            "Bourntec leverages data and AI to connect businesses and unlock insights, helping them optimize operations and gain a competitive edge."
+        ],
+        "options": [
+            "AI Service",
+            "Others"
+        ]
+    },
+    {
+        "tag": "AI Service",
+        "responses": [
+            "Bourntec provides AI services such as machine learning, natural language processing, and computer vision and analytics in Goverment projects ,MED etc."
+        ],
+        "options": [
+            "Our Services",
+            "Others"
+        ]
+    },
+    {
+        "tag": "AWS Service",
+        "responses": [
+            "Bourntec provides all 365 Services of AWS But the major services provided by Bourntec are EC2,S3,Serverless,Lamda,Eks,Ecs,RDS"
+        ],
+        "options": [
+            "Our Services",
+            "Others"
+        ]
+    },
+    {
+        "tag": "Oracle Service",
+        "responses": [
+            "Bourntec provides all services of Oracle for more details please visit official website"
+        ],
+        "options": [
+            "Our Services",
+            "Others"
+        ]
+    },
+    {
+        "tag": "About us",
+        "responses": [
+            "Bourntec Solutions is headquartered at 1701 E Woodfield Rd, Suite 200, Schaumburg, IL 60173. You can contact them at +1-224-232-5090 (phone) or 847-805-6392 (fax)."
+        ],
+        "options": [
+            "Others",
+            "Company"
+        ]
+    },
+    {
+        "tag": "Company",
+        "responses": [
+            "Bourntec, a global IT consultancy, empowers businesses with innovative solutions for digital transformation and success, backed by 400+ employees and 20+ years of experience."
+        ],
+        "options": [
+            "Others"
+        ]
+    }
+]
