@@ -38,9 +38,9 @@ body {
 .chat-window {
     display: flex;
     flex-direction: row;
-    height: 100vh;
     position: relative;
     background-color: rgb(241 241 241);
+    border-radius: 5px;
 }
 
 .chat-window ::-webkit-scrollbar {
@@ -97,7 +97,7 @@ body {
     display: inline-block;
     width: 60%;
     padding: 12px;
-    background: #efefef;
+    background: #9932CC;
     margin-bottom: 12px;
     border-radius: 55px 54px 55px 0px;
     -webkit-border-radius: 55px 54px 55px 0px;
@@ -125,8 +125,8 @@ body {
 .user-response {
     font-size: 14px;
     font-weight: bold;
-    color: rgb(62, 103, 187);
-    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: #8A2BE2;
     border-radius: 5px;
     /* margin-bottom: 10px; */
     padding: 8px 14px;
@@ -137,7 +137,7 @@ body {
     display: inline-block;
     margin-bottom: 12px;
     padding: 8px;
-    background: white;
+    background: #8A2BE2;
     border-radius: 62px 63px 0px 61px;
     -webkit-border-radius: 62px 63px 0px 61px;
     -moz-border-radius: 62px 63px 0px 61px;
@@ -146,6 +146,8 @@ body {
 
 .bot-response {
     font-size: 14px;
-    color: #7d7d7d;
+    color: #ffffff;
     padding: 4px 12px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }

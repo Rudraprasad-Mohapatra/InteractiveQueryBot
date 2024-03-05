@@ -27,8 +27,10 @@ document.addEventListener('DOMContentLoaded', function () {
         
         const responseOptions = createOptions(options);
         botChatLog.appendChild(responseOptions);
-        
-        chatWindow.appendChild(botChatLog);
+        setTimeout(() => {
+            chatWindow.appendChild(botChatLog);
+            chatWindow.scrollTop = chatWindow.scrollHeight;
+        }, 1000);
     }
     
 
@@ -38,6 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const userResponse = createMessage(message, "user"); // Pass "user" as the type
         userChatLog.appendChild(userResponse);
         chatWindow.appendChild(userChatLog);
+        chatWindow.scrollTop = chatWindow.scrollHeight;
     }
     
 

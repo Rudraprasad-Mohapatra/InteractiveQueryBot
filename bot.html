@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat Bot</title>
     <link rel="stylesheet" href="bot.css">
 </head>
+
 <body style="display: flex; align-items: center; justify-content: center;">
-    <div class="chat-window" id="chat-window" style="display: flex; flex-direction: column; height: 325px; width: 300px; border: 1px solid rgb(68, 67, 67);padding: 10px 40px;">
+    <div class="chat-window" id="chat-window"
+        style="display: flex; flex-direction: column; height: 325px; width: 300px; border: 1px solid rgb(68, 67, 67);padding: 60px 40px 10px 40px; background-color: blue;">
+        <div class="giphy" style="
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: fixed;
+            top: 0;
+            width: 300px;
+            backdrop-filter: blur(10px); 
+        ">
+            <img src="./GIF/giphy.gif" alt="ChatBot Giphy" style="
+            height: 50px;
+            width: 50px;
+            border: 2px solid blueviolet;
+            border-radius: 50%;
+            " />
+            &nbsp;
+            <p style="color:#ffffff;">Hii there👋 ! kass 24x7 here!</p>
+        </div>
     </div>
     <script src="bot.js"></script>
 </body>
+
 </html>
