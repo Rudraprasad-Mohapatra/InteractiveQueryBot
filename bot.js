@@ -89,6 +89,7 @@ function createMessage(message, type) {
                 optionsContainer.querySelectorAll("button").forEach(btn => {
                     if (btn.textContent !== option) {
                         btn.disabled = true;
+                        btn.style.backgroundColor = "#e1e1e1";
                     }
                 });
             });
